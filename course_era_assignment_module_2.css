@@ -1,0 +1,163 @@
+
+ @media (min-width :992px){
+     .box{
+         float:left;
+         border: solid 3px black;
+         width: 30%;
+         height: 180px;  
+        margin-left: 2%;
+        margin-top: 20%;
+        box-sizing: border-box;
+        background-color: grey;
+        box-sizing: border-box;
+     overflow: hidden;
+     text-align: center;
+    
+     }
+     .chicken,.beef,.sushi{
+        position: relative;
+        left: 65%;
+        border: 2px solid black;
+       width: 35%;
+      margin-top: -0.5%;
+       border-right: none;
+       border-top: none;
+       
+       
+    }
+    h1{
+        position: absolute;
+        left: 44%;
+        top:15%;
+        
+    }
+    .pm{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .chicken{
+        background-color: rgb(243, 144, 161);
+    }
+    .beef{
+        background-color: rgb(241, 62, 62);
+    }
+    .sushi{
+        background-color: rgb(230, 230, 104);
+    }
+    
+    
+ }
+ @media(min-width:768px)and (max-width:991px){
+
+.box{
+    float:left;
+    border: solid 3px black;
+    width: 45%;
+    height: 180px;  
+   margin-left: 3%;
+   margin-top: 16%;
+   background-color: grey;
+   box-sizing: border-box;
+  
+   
+}
+.chicken,.beef{
+    position: relative;
+    left: 64.5%;
+    border: 2px solid black;
+   width: 35%;
+  margin-top: -0.3%;
+   border-right: none;
+   border-top: none;
+   text-align: center;
+   
+}
+
+.sus{
+    float:right;
+    border: solid 3px black;
+    margin-top: 3%;
+    height: 180px;
+    width:93%;
+    margin-right: 4%;
+    background-color: grey;
+}
+.pm{
+    font-size: 20px;
+    padding:10px;
+}
+.sushi{
+    position: relative;
+    left: 82.8%;
+    border: 2px solid black;
+   width: 17%;
+  margin-top: 0%;
+   border-right: none;
+   border-top: none;
+   text-align: center;
+   
+}
+.chicken{
+    background-color: rgb(243, 144, 161);
+}
+.beef{
+    background-color: rgb(241, 62, 62);
+}
+.sushi{
+    background-color: rgb(230, 230, 104);
+}
+h1{
+    position: absolute;
+    left: 44%;
+    top:6%;
+    
+}
+
+ }
+
+@media (max-width:767px){
+
+
+.box-s{
+    float:left;
+    border: solid 3px black;
+    margin-top: 4%;
+    width:90%;
+    height: 160px;
+   margin-left: 4%;
+   overflow: hidden;
+   background-color: grey;
+
+}
+h1{
+    position: relative;
+    margin-left: 35%;
+   margin-top:6%;
+    
+}
+.chicken-s,.beef-s, .sushi-s{
+    border: 2px solid black;
+   position: relative;
+   left: 65%;
+   border-top: none;
+   text-align: center;
+   width: 35%;
+   top: -14%;
+   
+}
+.ps{
+    font-size: 20px;
+    padding-left: 9px;
+}
+.chicken-s{
+    background-color: rgb(243, 144, 161);
+}
+.beef-s{
+    background-color: rgb(241, 62, 62);
+}
+.sushi-s{
+    background-color: rgb(230, 230, 104);
+}
+
+
+}
